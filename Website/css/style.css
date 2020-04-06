@@ -1,0 +1,102 @@
+body {
+  font-family: arial;
+  background-color: lightgrey;
+  margin: 0;
+  font-family: Roboto;
+}
+
+a{
+  color: #339999;
+  text-decoration: none;
+}
+
+/****** Menu Bar****/
+div.nav{
+  background-color: white;
+  width: 100%;
+  padding: 15px;
+  position: fixed;
+  top: 0px;
+}
+
+div.menu{
+  float: right;
+  padding-right: 50px;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+div.banner{
+  float: left;
+  padding-left: 20px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+}
+span{
+  padding: 10px;
+}
+
+/****** Top Intro****/
+div.container{
+  background-color: #339999;
+  position: relative;
+  top: 50px;
+  padding-top: 50px; padding-bottom: 50px;
+  padding-left: 20%;
+  color: white;
+  text-align: center;
+}
+
+div.profile{
+  position: static;
+  width: 70%;
+}
+
+div.headerContents{
+  position: static;
+  width: 70%;
+  font-weight: 100; font-size: 14px;
+}
+* { color:#fff; text-decoration: none;}
+
+/****** Body Contents****/
+
+div.contents{
+  position: absolute;
+  top: 640px;
+  left: 16%;
+  width: 70%;
+}
+
+div.galleryContents{
+  padding-top: 50px;
+  left: 16%;
+  text-align: center;
+}
+#smallImg{
+  width: 32%;
+  padding: 5px;
+  height: 250px;
+}
+
+
+/******social ***/
+.fa{
+ padding: 10px;
+ font-size: 40px;
+ width: 20px;
+ height: 20px;
+ text-align: center;
+ text-decoration: none;
+ margin: 5px 2px;
+ border-radius: 50%;
+ background-color: white;
+}
+
+.social{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #339999;
+}
